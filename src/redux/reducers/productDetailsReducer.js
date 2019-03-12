@@ -16,8 +16,8 @@ const initialState = {
     purchaseChannelCode: channelCode
 }
 
-const productDetailsItem = (state = [], action) => {
-    console.log('product-data', action.payload);
+const productDetails = (state = [], action) => {
+    console.log('product-data', action);
     switch (action.type){
         case 'SET_PRODUCT':
             return action.payload;
@@ -26,4 +26,4 @@ const productDetailsItem = (state = [], action) => {
     }
 }
 
-export default productDetailsItem
+export default productDetails

@@ -10,6 +10,7 @@ function* productSaga() {
 function* getProductSaga() {
     try {
         const getProduct = yield callGetProduct();
+        console.log(getProduct);
         yield put({
             type: 'SET_PRODUCT',
             payload: getProduct
