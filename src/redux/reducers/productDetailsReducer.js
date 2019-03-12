@@ -16,11 +16,11 @@ const initialState = {
     purchaseChannelCode: channelCode
 }
 
-const productDetailsItem = (state = initialState, action) => {
+const productDetailsItem = (state = [], action) => {
+    console.log('product-data', action.payload);
     switch (action.type){
-        case 'ITEM_QUANTITY_CHANGE':
-            // NOT CURRENTLY BEING USED
-            return Object.assign({}, state, { });
+        case 'SET_PRODUCT':
+            return action.payload;
         default: 
             return state;
     }

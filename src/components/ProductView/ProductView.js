@@ -22,6 +22,8 @@ class ProductView extends Component {
         this.updateEnlargeViewIcon = this.updateEnlargeViewIcon.bind(this);
     }
 
+    
+
     componentDidMount() {
         this.updateEnlargeViewIcon();
         window.addEventListener("resize", this.updateEnlargeViewIcon);

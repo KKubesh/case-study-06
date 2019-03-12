@@ -20,6 +20,12 @@ class ProductCarousel extends Component {
         };
         this.updateButtons = this.updateButtons.bind(this);
     }
+
+    componentDidMount() {
+        this.props.dispatch({
+            type: 'GET_PRODUCT'
+        })
+    }
     
     updateButtons(newIndex) {
         if (newIndex !== 0){

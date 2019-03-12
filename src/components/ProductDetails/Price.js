@@ -8,8 +8,15 @@ const mapStateToProps = state => {
 }
 
 class Price extends Component {
+
+    componentDidMount() {
+        this.props.dispatch({
+            type: 'GET_PRODUCT'
+        })
+    }
     
     render () {
+        console.log("LOGGING THIS PROPS", this.props);
         const price = this.props.price
         return (
             <div>

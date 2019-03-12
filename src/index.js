@@ -5,10 +5,24 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import reducer from './redux/reducers';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import rootSaga from './redux/sagas';
 
 const rootElement = document.getElementById('root');
-const store = createStore(reducer);
+const preloadedState = {};
+const middlewares = [];
+const sagaMiddleware = createSagaMiddleware();
+
+middlewares.push(sagaMiddleware);
+
+const store = createStore(
+    reducer,
+    preloadedState,
+    applyMiddleware(...middlewares)
+);
+
+sagaMiddleware.run(rootSaga)
 
 ReactDOM.render((
     <Provider store={store}>
