@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Deals /> 1`] = `
+<div>
+  <div
+    class="deals"
+    data-testid="deals"
+  >
+    <img
+      alt="tag icon"
+      src="tag.png"
+    />
+     spend $50, ship free
+    <br />
+    <img
+      alt="tag icon"
+      src="tag.png"
+    />
+     $25 gift card with purchase of a select Ninja Blender
+  </div>
+  <hr />
+</div>
+`;

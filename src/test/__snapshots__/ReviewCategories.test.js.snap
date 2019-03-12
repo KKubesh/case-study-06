@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewCatagories /> 1`] = `
+<div
+  class="row-flex"
+  data-testid="categories"
+>
+  <div
+    class="categories-review"
+    data-testid="categories-review"
+  >
+    <h3
+      data-testid="categories-pro"
+    >
+      PRO
+    </h3>
+    <h4
+      data-testid="categories-pro-text"
+    >
+      most helpful 4-5 star review
+    </h4>
+  </div>
+  <div
+    class="categories-review"
+    data-testid="categories-review"
+  >
+    <h3
+      data-testid="categories-con"
+    >
+      CON
+    </h3>
+    <h4
+      data-testid="categories-con-text"
+    >
+      most helpful 1-2 star review
+    </h4>
+  </div>
+</div>
+`;

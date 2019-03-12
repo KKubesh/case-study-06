@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductReview /> 1`] = `
+<div
+  class="product-review"
+  data-testid="product-review"
+>
+  <div
+    class="row-flex"
+    data-testid="total-review"
+  >
+    <div
+      class="stars-overall"
+      data-testid="star-overall"
+    >
+      <img
+        alt="postive star 1"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 2"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 3"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 4"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 5"
+        src="red-star.png"
+      />
+       overall
+    </div>
+    <div
+      class="total-reviews"
+      data-testid="total-reviews"
+    >
+      view all 14 reviews
+    </div>
+  </div>
+  <div
+    class="reviews"
+    data-testid="review-response"
+  >
+    <div
+      class="row-flex"
+      data-testid="categories"
+    >
+      <div
+        class="categories-review"
+        data-testid="categories-review"
+      >
+        <h3
+          data-testid="categories-pro"
+        >
+          PRO
+        </h3>
+        <h4
+          data-testid="categories-pro-text"
+        >
+          most helpful 4-5 star review
+        </h4>
+      </div>
+      <div
+        class="categories-review"
+        data-testid="categories-review"
+      >
+        <h3
+          data-testid="categories-con"
+        >
+          CON
+        </h3>
+        <h4
+          data-testid="categories-con-text"
+        >
+          most helpful 1-2 star review
+        </h4>
+      </div>
+    </div>
+    <hr
+      width="92%"
+    />
+    <div
+      class="row-flex"
+      data-testid="review-feedback"
+    >
+      <div
+        class="review"
+        data-testid="review"
+      >
+        <div
+          class="reviewer"
+          data-testid="reviewer"
+        >
+          <img
+            alt="postive star 1"
+            src="red-star.png"
+          />
+          <img
+            alt="postive star 2"
+            src="red-star.png"
+          />
+          <img
+            alt="postive star 3"
+            src="red-star.png"
+          />
+          <img
+            alt="postive star 4"
+            src="red-star.png"
+          />
+          <img
+            alt="postive star 5"
+            src="red-star.png"
+          />
+        </div>
+        <h3>
+          Fantastic Blender
+        </h3>
+        This blender works amazingly, and blends within seconds.  The single serve cups also work really well for smoothies or protein shakes!
+        <br />
+        <br />
+        <a
+          href="https://www.google.com/search?q=eric"
+        >
+          Eric
+        </a>
+         April 18, 2013
+      </div>
+      <div
+        class="review"
+        data-testid="review"
+      >
+        <div
+          class="reviewer"
+          data-testid="reviewer"
+        >
+          <img
+            alt="postive star 1"
+            src="red-star.png"
+          />
+          <img
+            alt="negative star 1"
+            src="grey-star.png"
+          />
+          <img
+            alt="negative star 2"
+            src="grey-star.png"
+          />
+          <img
+            alt="negative star 3"
+            src="grey-star.png"
+          />
+          <img
+            alt="negative star 4"
+            src="grey-star.png"
+          />
+        </div>
+        <h3>
+          Very unhappy
+        </h3>
+        Less than 2 months after purchase it completely stopped working. First it wouldn't detect the pitcher when trying to blend a significant amount, a couple weeks later it wouldn't detect the single serve cup.
+        <br />
+        <br />
+        <a
+          href="https://www.google.com/search?q=New+York"
+        >
+          New York
+        </a>
+         March 11, 2013
+      </div>
+    </div>
+  </div>
+</div>
+`;

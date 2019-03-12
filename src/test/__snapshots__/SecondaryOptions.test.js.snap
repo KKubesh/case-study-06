@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SecondaryOptions /> 1`] = `
+<div
+  class="row-flex addto-margin"
+  data-testid="secondary-options"
+>
+  <button
+    class="button-grey"
+    data-testid="add-to-registry"
+  >
+    Add to registry
+  </button>
+  <button
+    class="button-grey"
+    data-testid="add-to-list"
+  >
+    Add to list
+  </button>
+  <button
+    class="button-grey"
+    data-testid="share"
+  >
+    share
+  </button>
+</div>
+`;

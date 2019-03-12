@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Quantity /> 1`] = `
+<div
+  class="quantity"
+  data-testid="quantity"
+>
+  quantity:
+  <div
+    class="quantity-buttons"
+  >
+    <img
+      alt="remove item"
+      src="minus.png"
+    />
+    1
+    <img
+      alt="add item"
+      src="plus.png"
+    />
+  </div>
+</div>
+`;

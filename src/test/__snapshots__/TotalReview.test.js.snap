@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TotalReview /> 1`] = `
+<div
+  class="row-flex"
+  data-testid="total-review"
+>
+  <div
+    class="stars-overall"
+    data-testid="star-overall"
+  >
+    <img
+      alt="postive star 1"
+      src="red-star.png"
+    />
+    <img
+      alt="postive star 2"
+      src="red-star.png"
+    />
+    <img
+      alt="postive star 3"
+      src="red-star.png"
+    />
+    <img
+      alt="postive star 4"
+      src="red-star.png"
+    />
+    <img
+      alt="postive star 5"
+      src="red-star.png"
+    />
+     overall
+  </div>
+  <div
+    class="total-reviews"
+    data-testid="total-reviews"
+  >
+    view all 14 reviews
+  </div>
+</div>
+`;

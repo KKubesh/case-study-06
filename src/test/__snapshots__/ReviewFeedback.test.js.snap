@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewFeedback /> 1`] = `
+<div
+  class="row-flex"
+  data-testid="review-feedback"
+>
+  <div
+    class="review"
+    data-testid="review"
+  >
+    <div
+      class="reviewer"
+      data-testid="reviewer"
+    >
+      <img
+        alt="postive star 1"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 2"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 3"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 4"
+        src="red-star.png"
+      />
+      <img
+        alt="postive star 5"
+        src="red-star.png"
+      />
+    </div>
+    <h3>
+      Fantastic Blender
+    </h3>
+    This blender works amazingly, and blends within seconds.  The single serve cups also work really well for smoothies or protein shakes!
+    <br />
+    <br />
+    <a
+      href="https://www.google.com/search?q=eric"
+    >
+      Eric
+    </a>
+     April 18, 2013
+  </div>
+  <div
+    class="review"
+    data-testid="review"
+  >
+    <div
+      class="reviewer"
+      data-testid="reviewer"
+    >
+      <img
+        alt="postive star 1"
+        src="red-star.png"
+      />
+      <img
+        alt="negative star 1"
+        src="grey-star.png"
+      />
+      <img
+        alt="negative star 2"
+        src="grey-star.png"
+      />
+      <img
+        alt="negative star 3"
+        src="grey-star.png"
+      />
+      <img
+        alt="negative star 4"
+        src="grey-star.png"
+      />
+    </div>
+    <h3>
+      Very unhappy
+    </h3>
+    Less than 2 months after purchase it completely stopped working. First it wouldn't detect the pitcher when trying to blend a significant amount, a couple weeks later it wouldn't detect the single serve cup.
+    <br />
+    <br />
+    <a
+      href="https://www.google.com/search?q=New+York"
+    >
+      New York
+    </a>
+     March 11, 2013
+  </div>
+</div>
+`;
