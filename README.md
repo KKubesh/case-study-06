@@ -18,3 +18,7 @@ Test are using jest and react-testing-library.
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+## Continuous Delivery Flow Diagram
+
+<img src="CI_CD Pipeline.jpg" width="800px" alt="Continuous Delivery Flow Diagram">
